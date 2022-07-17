@@ -1,8 +1,10 @@
 //#include <AFMotor.h>
 //#include <EEPROM.h>
+
 #include <Servo.h>
 #define IR 21
 //#define rase 230
+
 const int Switch = 14;
 int Switch_state = 0;
 int led_obs = 22;       //White LED
@@ -18,6 +20,7 @@ int in1 = 2;      // Left Motor
 int in2 = 3;      // Right Motor
 int in3 = 4;
 int in4 = 5;
+
 Servo servo;
 //AF_DCMotor motor1 (1); //Motor on Left Back
 //AF_DCMotor motor2 (2); //Motor on Right Back
